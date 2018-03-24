@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/appMap"
+        android:layout_width="123dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/startap" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:lineSpacingExtra="10sp"
+        android:text="仓务预约系统"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phone"
+        style="@android:style/Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="10sp"
+        android:textAlignment="center"
+        tools:text="手机号码" />
+
+    <EditText
+        android:id="@+id/userpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textAutoComplete|textPassword"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
